@@ -182,5 +182,14 @@ export default class MybaseImport extends Plugin {
                 this.showDialog();
             }
         });
+        if (this.isMobile) {
+            menu.fullscreen();
+        } else {
+            menu.open({
+                x: rect.right,
+                y: rect.bottom,
+                isLeft: true,
+            });
+        }
     }
 }

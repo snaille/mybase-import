@@ -1,7 +1,7 @@
 {
-  "name": "plugin-sample",
+  "name": "mybase-import",
   "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/plugin-sample",
+  "url": "https://github.com/snaille/mybase-import",
   "version": "0.3.5",
   "minAppVersion": "3.0.12",
   "backends": [
@@ -19,16 +19,19 @@
     "desktop-window"
   ],
   "displayName": {
-    "default": "Plugin Sample",
-    "zh_CN": "插件示例"
+    "default": "Mybase Data Import",
+    "zh_CN": "Mybase数据导入",
+    "en_US": "Mybase Data Import"
   },
   "description": {
-    "default": "This is a plugin sample",
-    "zh_CN": "这是一个插件示例"
+    "default": "mybase数据导入插件",
+    "zh_CN": "mybase数据导入插件",
+    "en_US": "This is a plugin to import mybase data"
   },
   "readme": {
-    "default": "README.md",
-    "zh_CN": "README_zh_CN.md"
+    "default": "README_zh_CN.md",
+    "zh_CN": "README_zh_CN.md",
+    "en_US": "README.md"
   },
   "funding": {
     "openCollective": "",
@@ -39,7 +42,7 @@
     ]
   },
   "keywords": [
-    "sample",
-    "示例"
+    "mybase",
+    "导入"
   ]
 }
